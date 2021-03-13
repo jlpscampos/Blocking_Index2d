@@ -116,12 +116,21 @@ PROGRAM MAIN
     ! Computing Blockings with pers days
     CALL BLOCKING (blk, ind, xdim, ydim, tdim, res, pers )
    
+    ! Writing the outputs
     WRITE(iofile,'(A,i4,A)') TRIM(output_dir), y,'.blocked.nc'
     CALL write_netcdf( iofile,ind, lat, lon)
     WRITE(*,'(A,A)') 'Writing file: ',TRIM(iofile)
     
     WRITE(iofile,'(A,i4,A)') TRIM(output_dir), y,'.blocking.nc'
     CALL write_netcdf( iofile,blk, lat, lon)
+    WRITE(*,'(A,A)') 'Writing file: ',TRIM(iofile)
+
+    WRITE(iofile,'(A,i4,A)') TRIM(output_dir), y,'.gradient.nc'
+    CALL write_netcdf( iofile,dif, lat, lon)
+    WRITE(*,'(A,A)') 'Writing file: ',TRIM(iofile)
+
+    WRITE(iofile,'(A,i4,A)') TRIM(output_dir), y,'.theta.nc'
+    CALL write_netcdf( iofile,theta4, lat, lon)
     WRITE(*,'(A,A)') 'Writing file: ',TRIM(iofile)
     
     DEALLOCATE(ind); DEALLOCATE(blk); DEALLOCATE(dif); DEALLOCATE(theta);
