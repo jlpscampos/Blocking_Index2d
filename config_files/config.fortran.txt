@@ -1,0 +1,4 @@
+/mnt/d/data_sets/theta_2PVU/
+/mnt/d/data_sets/blocking_output/
+1981
+1983
