@@ -20,3 +20,11 @@ This implementation is a 2 dimensional addaptation of the algorithm presented by
 >>$FC $fflags main.f95 src_fortran/Blocked_Flow_Index_new_v2.f95 -o a.out $LIBNETCDF -I/$pwdd/src_fortran/
 >>./a.out
 >>```
+
+## Description ##
+
+In middle and high latitudes, the upper level winds generally flows from west to east, forming a jet stream due to strengthening of meridional temperature gradient [Holton et al. 2016](https://aapt.scitation.org/doi/pdf/10.1119/1.1987371?casa_token=_TKypuiKE3YAAAAA%3AvNTMbLFXQqVZCLEAu6vWbBb_pO-iFynQe8m4a8d3XXPqTYjvjjD2L9CNsHZCfDP4j7nBRqC8XP0u5g&). When this flow is interrupted by some physical barrier such as a High pressure persistent systems, we call this event as a blocking event.
+
+Atmospheric blockings can also be seen as Rossby wave breaking events, where excited ....
+
+![Blocking](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
