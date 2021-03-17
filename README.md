@@ -33,7 +33,7 @@ Before formulating the algorithm to detect an atmospheric blocking, some quantit
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn1.png)
 
-Equations 1 and 2 represent the quantities to be computed with the geopotential height and potential temperature respectivelly. To a flow be considered a blocked flow, the following criteria must be verified, we call this of **Instantaneous Blocking Index** (IB).
+Equations 1 and 2 represent the quantities to be computed with the geopotential height and potential temperature respectivelly. To a flow be considered a blocked flow, the following criteria must be verified, we call this of **Instantaneous Blocked Latitude** (IBL).
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn2.png)
 
