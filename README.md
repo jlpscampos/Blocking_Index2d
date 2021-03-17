@@ -29,4 +29,6 @@ Atmospheric Blocking events can be seen as Rossby Wave breaking events ([Pelly &
 
 In summer season over South America, when a blocking event is set over the South Atlantic coast, it is expected heat waves over the continent, drougth conditions northwestward and wetness condition southwestward the blocking high, due to the meridional displacement of the South American Low Level Jet and the impediment of frontal system to propagate equatorward, due to the blocking high and the southward displacement of the Jet Stream.  
 
+Before formulating the algorithm to detect an atmospheric blocking, some quantities must be computed before such as the meridional gradient of potential temperature or geopotential high, using the potential temperature at the dynamical tropopause (\theta) and geopotential high at 500hPa level (Z) respectivelly, defined bellow:
+
 ![Blocking](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
