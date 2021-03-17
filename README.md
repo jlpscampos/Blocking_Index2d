@@ -33,4 +33,6 @@ Before formulating the algorithm to detect an atmospheric blocking, some quantit
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn1.png)
 
+![eqn2](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn2.png)
+
 ![Blocking](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
