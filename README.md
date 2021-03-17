@@ -31,4 +31,6 @@ In summer season over South America, when a blocking event is set over the South
 
 Before formulating the algorithm to detect an atmospheric blocking, some quantities must be computed before, such as the meridional gradient of potential temperature or geopotential high, using the potential temperature at the dynamical tropopause (\theta) and geopotential high at 500hPa level (Z) respectivelly, defined bellow:
 
+![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn1.png)
+
 ![Blocking](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
