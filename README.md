@@ -43,4 +43,8 @@ Equations 1 and 2 represent the quantities to be computed with the geopotential 
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn2.png)
 
-![Blocking](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
+After the IBL's is grouped into a Group of Instantaneous Blocked Latitudes (GIBLs) and it is verified the GIBLs' persistence, it they persists at least T days it is classified as blocking, otherwise not. An algorithm for blocking detection is presented bellow.
+
+![diag1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/fig_blk_sc.png)
+
+
