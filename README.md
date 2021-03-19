@@ -33,17 +33,24 @@ Atmospheric Blocking events can be seen as Rossby Wave breaking events ([Pelly &
 
 In classical works, there are identified two types of atmospheric blockings, the **omega blocking type**, depicted in fig.1a-c and the **dipole blocking type**, depicted in fig.1d-h. So, the purpose of this repository is to provide a set of routines capable to identify these kinds of structures.
 
+
 ![fig1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/b_all.png)
+
 
 Before formulating an algorithm to detect atmospheric blockings, some quantities must be computed, such as the meridional gradient of potential temperature or geopotential height, for the potential temperature at the dynamical tropopause (\theta) and geopotential height at 500hPa level (Z) respectivelly, as defined bellow:
 
+
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn1.png)
 
-Equations 1 and 2 represent the quantities to be computed with the geopotential height and potential temperature respectivelly. To a flow be considered a blocked flow, the following criteria must be verified, we call this of **Instantaneous Blocked Latitude** (IBL).
+
+Equations 1 and 2 represent the quantities to be computed with the geopotential height and potential temperature respectivelly. To a flow be considered as a blocked flow, the following criteria must be verified, we call this of **Instantaneous Blocked Latitude** (IBL).
+
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn2.png)
 
-After the IBL's is grouped into a Group of Instantaneous Blocked Latitudes (GIBLs) and it is verified the GIBLs' persistence, it they persists at least T days it is classified as blocking, otherwise not. An algorithm for blocking detection is presented bellow.
+
+After the IBL's were grouped into a Group of Instantaneous Blocked Latitudes (GIBLs) and it was verified the GIBLs' persistence, it they persisted at least T days it will be classified as blocking, otherwise it will not. An algorithm based on [Barnes et al., (2012)](https://link.springer.com/article/10.1007/s00382-011-1243-6) for blocking detection is presented bellow.
+
 
 ![diag1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/fig_blk_sc.png)
 
