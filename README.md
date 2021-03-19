@@ -33,7 +33,7 @@ In classical works, there are identified two types of atmospheric blockings, the
 
 ![fig1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/b_all.png)
 
-Before formulating the algorithm to detect an atmospheric blocking, some quantities must be computed before, such as the meridional gradient of potential temperature or geopotential high, using the potential temperature at the dynamical tropopause (\theta) and geopotential high at 500hPa level (Z) respectivelly, defined bellow:
+Before formulating the algorithm to detect an atmospheric blocking, some quantities must be computed before, such as the meridional gradient of potential temperature or geopotential height, using the potential temperature at the dynamical tropopause (\theta) and geopotential height at 500hPa level (Z) respectivelly, as defined bellow:
 
 ![eqn1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/eqn1.png)
 
