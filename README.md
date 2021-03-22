@@ -55,3 +55,6 @@ After the IBL's were grouped into a Group of Instantaneous Blocked Latitudes (GI
 ![diag1](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/fig_blk_sc.png)
 
 
+The red dotted line shows the **atmospheric blocking region as detected by the algorithm** with the quantities computed in eq.1 and eq.2. 
+
+![fign](https://github.com/jlpscampos/Blocking_Index2d/blob/main/figs/blocking_19830126-19830204_full.png)
