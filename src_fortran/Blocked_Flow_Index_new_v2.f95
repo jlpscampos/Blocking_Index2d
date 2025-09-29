@@ -281,7 +281,7 @@ MODULE BLOCKED_FLOW_Index_new
         DO j = 1,ydim
           DO i = 1,xdim
 
-            IF( i > smth .or. i < (xdim-smth) )THEN
+            IF( i > smth .and. i < (xdim-smth) )THEN
               output(i,j,t) = SUM(input(i-smth:i+smth,j,t))/REAL(2*smth)
             ELSE IF( i < smth )THEN
               output(i,j,t) = (SUM(input(smth-i:i+smth,j,t))+SUM(input(xdim-smth:xdim,j,t)))/REAL(2*smth)
